@@ -3,6 +3,7 @@
 ## Computer Vision Research
 
 ### ENS - Laboratoire de Systèmes Perceptif - Vision Lab 
+#### May 2018 - August 2018, July 2019 - Present
 
 ---
 
