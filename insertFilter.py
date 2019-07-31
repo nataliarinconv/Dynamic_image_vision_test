@@ -1,4 +1,6 @@
-import natalialibNew as nlib
+# does a singular instance of insertion for the 0006R0.mp4
+
+import natalialib as nlib
 import numpy as np
 import matplotlib.pyplot as plt;
 import scipy.ndimage.filters as dconvolve;
@@ -19,7 +21,7 @@ gphase = 0;
 no_gframes = 7;
 
 
-skip_convolution=1;
+skip_convolution=0;
 
 if skip_convolution==0:
 	all_directions=nlib.get_all_dir(video_name,degree_increase,no_frames,freq_g, rot_angle, no_sds, patch_size, no_gframes);
